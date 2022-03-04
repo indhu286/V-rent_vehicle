@@ -1,0 +1,65 @@
+.logo{ 
+	float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+} 
+
+.logo img{
+    width: 110px;
+}
+.block1{
+    padding-top: 70px;
+}
+.coverpic img{
+    width:600px;
+    margin-left: 325px;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+nav{
+    font-family: 'Nunito', sans-serif;
+    background: #9ADCFF;
+    height:70px;
+    width:100%;
+    margin: 0px;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav .menu{
+    display: flex;
+    position: relative;
+}
+
+nav .menu a{
+    font-weight: 500;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav .menu li{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 40px;
+    margin:0 7px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background:rgb(78, 194, 223);
+    transition:.5s;
+}
+
+
