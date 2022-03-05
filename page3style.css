@@ -1,0 +1,62 @@
+body{ margin:0; font-family:'tahoma'}
+
+.bg{
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+
+}
+
+nav {
+  margin:0 auto;
+  width:100%;
+  height:auto;
+  display:inline-block;
+  background:black;
+}
+
+nav ul {
+   margin:0;padding:0;
+   list-style-type:none;
+   float:right;
+   display:inline-block;
+}
+
+nav ul li {
+  position:relative;
+  margin:0 20px 0 0;
+  float:right;
+  display:inline-block;
+}
+
+li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
+
+li > a:only-child:after { content: ''; }
+
+nav ul li a {
+padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  opacity:0.5;
+}
+
+nav ul li ul {
+  display:none;
+  position:absolute;
+  left:0;
+  background:black;
+  float:left;
+}
+
+nav ul li ul li {
+width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul {
+  display:block;
+}
